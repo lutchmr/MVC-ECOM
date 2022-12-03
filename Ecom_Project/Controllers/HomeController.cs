@@ -14,11 +14,22 @@ public class HomeController : Controller
 
     public HomeController(ILogger<HomeController> logger)
     {
+        if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+           
+       }
         _logger = logger;
     }
 
     public IActionResult Index()
     {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
         return View();
     }
 
@@ -259,7 +270,7 @@ public class HomeController : Controller
         {
              var uname = obj.email_id;
              var pword = obj.password;
-            string query = $"SELECT email_id, password FROM customer where email_id = '{uname}' and password ='{pword}';";
+            string query = $"SELECT first_name, email_id, password FROM customer where email_id = '{uname}' and password ='{pword}';";
     
             using (MySqlCommand cmd = new MySqlCommand(query))
             {
@@ -269,9 +280,13 @@ public class HomeController : Controller
                 {
                     while (sdr.Read())
                     {
-                        obj.password = string.Format("{0:S}", sdr["password"]);
+                        // obj.password = string.Format("{0:S}", sdr["password"]);
+                        GlobalModel.first_name = string.Format("{0:S}", sdr["first_name"]);
+                        
+                        Console.WriteLine("Global name is");
+                        Console.WriteLine(GlobalModel.first_name);
                         if (string.Compare(obj.password,string.Format("{0:S}", sdr["password"]),false)==0)
-                            return View("Index");
+                            return RedirectToAction("Index");
                         else
                             return View("privacy");                        
                     }

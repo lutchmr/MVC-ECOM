@@ -29,6 +29,18 @@ for (var i = 0; i < sortBtn.length; i++) {
     });
 }
 
+// Slider
+$(".slider-one")
+.not(".slick-initialized")
+.slick({
+
+    prevArrow:".site-slider.prev",
+    nextArrow: ".site-slider.next",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplaySpeed: 3000
+});
+
 
 
 
