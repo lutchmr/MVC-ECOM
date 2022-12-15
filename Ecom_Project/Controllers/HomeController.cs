@@ -257,6 +257,8 @@ public class HomeController : Controller
             return View();
         }   
 
+        
+
         // public IActionResult login1()
         // {
         //     return View();
@@ -288,7 +290,7 @@ public class HomeController : Controller
                         if (string.Compare(obj.password,string.Format("{0:S}", sdr["password"]),false)==0)
                             return RedirectToAction("Index");
                         else
-                            return View("privacy");                        
+                            return View("error");                        
                     }
                 }
                 conn.Close();
