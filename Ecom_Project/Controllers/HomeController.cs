@@ -163,12 +163,22 @@ public class HomeController : Controller
                             
       public IActionResult about()
         {
-            return View();
-        }                       
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }               
         public IActionResult contact()
-        {
-            return View();
-        }                       
+       {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }              
         public IActionResult terms()
         {
             return View();
@@ -178,39 +188,79 @@ public class HomeController : Controller
             return View();
         }  
           public IActionResult product()
-        {
-            return View();
-        }     
+       {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }
          public IActionResult cart()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }
         public IActionResult beds()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
          public IActionResult homeoffice()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
 
         public IActionResult dining()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
          public IActionResult recliners()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
         public IActionResult checkout()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
 
          public IActionResult order()
         {
-            return View();
-        }   
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
         public IActionResult view()
         {
             return View();

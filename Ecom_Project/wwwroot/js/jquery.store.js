@@ -598,7 +598,7 @@
 		
 		},
 		
-		/* Save the data entered by the user in the ckeckout form
+		/* Save the data entered by the user in the checkout form
 		 * @param form Object the jQuery element of the checkout form
 		 * @returns void
 		 */
