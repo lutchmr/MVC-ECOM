@@ -253,7 +253,7 @@
 						var product = item.product;
 						var price = this.currency + " " + item.price;
 						var qty = item.qty;
-						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><input type='text' value='" + qty + "' class='qty'/></td>";
+						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><input type='number' min='1' value='" + qty + "' class='qty'/></td>";
 					    	html += "<td class='pprice'>" + price + "</td><td class='pdelete'><a href='' data-product='" + product + "'>&times;</a></td></tr>";
 					
 						$tableCartBody.html( $tableCartBody.html() + html );
