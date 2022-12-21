@@ -113,7 +113,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }               
@@ -122,7 +122,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }              
@@ -139,7 +139,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }
@@ -148,7 +148,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }
@@ -157,7 +157,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }             
@@ -166,7 +166,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }             
@@ -176,7 +176,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }             
@@ -194,7 +194,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }             
@@ -204,7 +204,7 @@ public class HomeController : Controller
        if (GlobalModel.first_name != null)
        {
 
-            ViewBag.Name = GlobalModel.first_name;
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
        }
         return View();
     }             
