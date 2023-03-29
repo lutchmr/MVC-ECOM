@@ -58,10 +58,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="contact"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="register"><i class="fa fa-fw fa-user"></i>Register</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Accounts" asp-action="register"><i class="fa fa-fw fa-user"></i>Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="login"><i class="fa fa-fw fa-user"></i>Login</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Accounts" asp-action="login"><i class="fa fa-fw fa-user"></i>Login</a>
                         </li>
                          <li class="nav-item">
                             @ViewBag.Name
@@ -155,7 +155,7 @@
 
 <ul class="widget-list">
 @* <li><a href="../login/login.html" style="color: #8d7cdd;">Sign In</a></li> *@
-<li><a asp-area="" asp-controller="Home" asp-action="login">Login</a></li>
+<li><a asp-area="" asp-controller="Accounts" asp-action="login">Login</a></li>
 @* <li><a href="cart.html" style="color: #8d7cdd;">View Cart</a></li> *@
 <li><a asp-area="" asp-controller="Home" asp-action="cart">View Cart</a></li>
 <li><a asp-area="" asp-controller="Home" asp-action="wish">My Wishlist</a></li>
