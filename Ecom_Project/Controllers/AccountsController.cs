@@ -24,15 +24,15 @@ public class AccountsController : Controller
         _logger = logger;
     }
 
-    // public IActionResult Index()
-    // {
-    //    if (GlobalModel.first_name != null)
-    //    {
+     public IActionResult Index()
+     {
+        if (GlobalModel.first_name != null)
+        {
 
-    //         ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
-    //    }
-    //     return View();
-    // }
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }
 
    
     public IActionResult register()

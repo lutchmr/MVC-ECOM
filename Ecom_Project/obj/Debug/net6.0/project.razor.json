@@ -18419,11 +18419,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\Index.cshtml",
-      "TargetPath": "Views\\Shopping\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\shipping.cshtml",
       "TargetPath": "Views\\Home\\shipping.cshtml",
       "FileKind": "mvc"
@@ -18486,6 +18481,11 @@
     {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\help.cshtml",
       "TargetPath": "Views\\Home\\help.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Accounts\\Index.cshtml",
+      "TargetPath": "Views\\Accounts\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
