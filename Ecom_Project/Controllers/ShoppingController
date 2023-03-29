@@ -1,0 +1,98 @@
+//HomeController
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using Ecom_Project.Models;
+using MySql.Data;
+using MySql.Data.MySqlClient;
+using Microsoft.Extensions.Configuration;
+namespace Ecom_Project.Controllers;
+
+public class ShoppingController : Controller
+{
+    private string constr = "server=localhost;port=3306;uid=root;pwd=Lambo@786;database=furndb;charset=utf8;sslmode=none;AllowPublicKeyRetrieval=True";
+    //private string constr is connection to database;
+    private readonly ILogger<ShoppingController> _logger;
+
+    public ShoppingController(ILogger<ShoppingController> logger)
+    {
+        if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+           
+       }
+        _logger = logger;
+    }
+
+    public IActionResult Index()
+    {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }
+
+    
+         public IActionResult cart()
+        {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }
+        public IActionResult beds()
+        {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }             
+         public IActionResult homeoffice()
+        {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }             
+
+        public IActionResult dining()
+        {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;//shows first name as a form of personalization
+       }
+        return View();
+    }             
+         public IActionResult recliners()
+        {
+       if (GlobalModel.first_name != null)
+       {
+
+            ViewBag.Name = GlobalModel.first_name;
+       }
+        return View();
+    }             
+       
+         
+       
+                                                                                  
+   [HttpPost]
+    
+  
+  
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+}

@@ -18384,11 +18384,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\homeoffice.cshtml",
-      "TargetPath": "Views\\Home\\homeoffice.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\view.cshtml",
       "TargetPath": "Views\\Home\\view.cshtml",
       "FileKind": "mvc"
@@ -18399,8 +18394,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\recliners.cshtml",
-      "TargetPath": "Views\\Home\\recliners.cshtml",
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\dining.cshtml",
+      "TargetPath": "Views\\Shopping\\dining.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\recliners.cshtml",
+      "TargetPath": "Views\\Shopping\\recliners.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18416,6 +18416,11 @@
     {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\order.cshtml",
       "TargetPath": "Views\\Home\\order.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\Index.cshtml",
+      "TargetPath": "Views\\Shopping\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18444,23 +18449,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\homeoffice.cshtml",
+      "TargetPath": "Views\\Shopping\\homeoffice.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\privacy.cshtml",
       "TargetPath": "Views\\Home\\privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\product.cshtml",
-      "TargetPath": "Views\\Home\\product.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\dining.cshtml",
-      "TargetPath": "Views\\Home\\dining.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\wish.cshtml",
       "TargetPath": "Views\\Home\\wish.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\beds.cshtml",
+      "TargetPath": "Views\\Shopping\\beds.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\product.cshtml",
+      "TargetPath": "Views\\Shopping\\product.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18479,18 +18489,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Accounts\\Index.cshtml",
-      "TargetPath": "Views\\Accounts\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\cart.cshtml",
-      "TargetPath": "Views\\Home\\cart.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18519,11 +18519,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\beds.cshtml",
-      "TargetPath": "Views\\Home\\beds.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Accounts\\register.cshtml",
       "TargetPath": "Views\\Accounts\\register.cshtml",
       "FileKind": "mvc"
@@ -18536,6 +18531,11 @@
     {
       "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Home\\money.cshtml",
       "TargetPath": "Views\\Home\\money.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lutchmr\\Documents\\MVC-ECOM\\Ecom_Project\\Views\\Shopping\\cart.cshtml",
+      "TargetPath": "Views\\Shopping\\cart.cshtml",
       "FileKind": "mvc"
     }
   ],
